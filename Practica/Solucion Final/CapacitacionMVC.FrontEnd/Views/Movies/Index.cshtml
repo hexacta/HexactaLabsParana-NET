@@ -1,0 +1,60 @@
+﻿@model IList<CapacitacionMVC.Entities.Movie>
+@{
+    ViewBag.Title = "Movies";
+}
+
+<h2>Movies</h2>
+
+@if (ViewBag.MovieName != null)
+{ 
+    <p>
+        <span class="label label-success">The @ViewBag.MovieName movie was successfully created!</span>
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="col-sm-12">
+    <div class="row">
+        <div class="col-sm-2"><strong>Movie</strong></div>
+        <div class="col-sm-2"><strong>Genre</strong></div>
+        <div class="col-sm-1"><strong>Release Date</strong></div>
+        <div class="col-sm-1"><strong>Runtime</strong></div>
+        <div class="col-sm-4"><strong>Plot</strong></div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="row">
+            <div class="col-sm-2">
+                <figure class="figure">
+                    <img src="@item.CoverLink" class="figure-img img-fluid img-rounded" />
+                    <figcaption class="figure-caption">@item.Name</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-2">@item.Genre.Name</div>
+            <div class="col-sm-1">@item.ReleaseDate.ToShortDateString()</div>
+            <div class="col-sm-1">@item.Runtime</div>
+            <div class="col-sm-4">@item.Plot</div>      
+            <div class="col-sm-2">@Html.ActionLink("Edit", "Edit", new { id = item.Id }) <a href="" onclick="javascript: removeMovie(@item.Id, this); return false;">Remove</a></div>
+        </div>
+    }
+</div>
+
+@section scripts {
+<script>
+    function removeMovie(id, obj){
+        $.ajax({
+            type: 	"POST",
+            url:	 "@Url.Action("Delete")",
+            data: 	{ id: id },
+            success: function () {
+                $(obj).closest("div.row").hide();
+            },
+            error: function () {
+                alert("Failed");
+            }
+        });
+    }
+</script>
+}

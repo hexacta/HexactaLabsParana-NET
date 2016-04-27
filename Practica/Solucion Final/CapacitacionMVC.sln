@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacitacionMVC.FrontEnd", "CapacitacionMVC.FrontEnd\CapacitacionMVC.FrontEnd.csproj", "{E6748E23-9B7D-43DB-9763-8FEA8A9AA8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacitacionMVC.Entities", "CapacitacionMVC.Entities\CapacitacionMVC.Entities.csproj", "{373B2844-7A2D-488F-9ABD-60CB9A9E779B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacitacionMVC.Data", "CapacitacionMVC.Data\CapacitacionMVC.Data.csproj", "{51E48F1B-B164-4F5E-A2BC-A61C6A46E2AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapacitacionMVC.Services", "CapacitacionMVC.Services\CapacitacionMVC.Services.csproj", "{260E4D19-ACAA-45C8-9322-2A5688D1CC70}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chitonaha.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CapacitacionMVC.FrontEnd\\CapacitacionMVC.FrontEnd.csproj
+		SccProjectName1 = CapacitacionMVC.FrontEnd
+		SccLocalPath1 = CapacitacionMVC.FrontEnd
+		SccProjectUniqueName2 = CapacitacionMVC.Entities\\CapacitacionMVC.Entities.csproj
+		SccProjectName2 = CapacitacionMVC.Entities
+		SccLocalPath2 = CapacitacionMVC.Entities
+		SccProjectUniqueName3 = CapacitacionMVC.Data\\CapacitacionMVC.Data.csproj
+		SccProjectName3 = CapacitacionMVC.Data
+		SccLocalPath3 = CapacitacionMVC.Data
+		SccProjectUniqueName4 = CapacitacionMVC.Services\\CapacitacionMVC.Services.csproj
+		SccProjectName4 = CapacitacionMVC.Services
+		SccLocalPath4 = CapacitacionMVC.Services
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6748E23-9B7D-43DB-9763-8FEA8A9AA8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6748E23-9B7D-43DB-9763-8FEA8A9AA8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6748E23-9B7D-43DB-9763-8FEA8A9AA8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6748E23-9B7D-43DB-9763-8FEA8A9AA8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373B2844-7A2D-488F-9ABD-60CB9A9E779B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373B2844-7A2D-488F-9ABD-60CB9A9E779B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373B2844-7A2D-488F-9ABD-60CB9A9E779B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373B2844-7A2D-488F-9ABD-60CB9A9E779B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E48F1B-B164-4F5E-A2BC-A61C6A46E2AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E48F1B-B164-4F5E-A2BC-A61C6A46E2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E48F1B-B164-4F5E-A2BC-A61C6A46E2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E48F1B-B164-4F5E-A2BC-A61C6A46E2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260E4D19-ACAA-45C8-9322-2A5688D1CC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260E4D19-ACAA-45C8-9322-2A5688D1CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260E4D19-ACAA-45C8-9322-2A5688D1CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260E4D19-ACAA-45C8-9322-2A5688D1CC70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
